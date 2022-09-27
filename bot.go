@@ -175,7 +175,7 @@ var (
 
 func init() {
 	// 默认昵称
-	adana = flag.String("n", "派蒙", "Set default nickname.")
+	adana = flag.String("n", "小派蒙", "Set default nickname.")
 	prefix = flag.String("p", "/", "Set command prefix.")
 	gocq.InitBase()
 
